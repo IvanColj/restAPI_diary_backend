@@ -16,7 +16,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/groups?limit=2&offset=1",
+					"raw": "localhost:8080/api/v1/groups?limit=2&offset=4",
 					"host": [
 						"localhost"
 					],
@@ -33,7 +33,7 @@
 						},
 						{
 							"key": "offset",
-							"value": "1"
+							"value": "4"
 						}
 					]
 				},
