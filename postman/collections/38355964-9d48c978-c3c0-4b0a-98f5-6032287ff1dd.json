@@ -1,0 +1,331 @@
+{
+	"info": {
+		"_postman_id": "38355964-9d48c978-c3c0-4b0a-98f5-6032287ff1dd",
+		"name": "ST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "limit&offset",
+			"id": "38355964-e1fdb7a3-4e88-4eee-a419-fbdb67b36f21",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/st?limit=2&offset=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"st"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "2"
+						},
+						{
+							"key": "offset",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "all",
+			"id": "38355964-4115af1d-165e-4dc3-b12d-cc239ecb45b3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/st/all",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"st",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "teacher",
+			"id": "38355964-41fbcbda-a6be-4677-9ad2-69eb94811461",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/st/teacher/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"st",
+						"teacher",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "id",
+			"id": "38355964-3b9d9905-198f-4410-aa6e-6ab989ccc48b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/st/id/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"st",
+						"id",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateGroup",
+			"id": "38355964-7679120b-5e0d-430b-b265-f1cd84dbfeb2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/st/update/id/4/group/2994/newGroup/2991",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"st",
+						"update",
+						"id",
+						"4",
+						"group",
+						"2994",
+						"newGroup",
+						"2991"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateST",
+			"id": "38355964-b6bab1d1-ca0f-4ca7-ba2b-8cb9d4e19872",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id_st\": 1,\r\n        \"id_teacher\": 1,\r\n        \"id_subject\": 2,\r\n        \"groups\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/st/update",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"st",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addGroup",
+			"id": "38355964-eb537465-db7d-401a-9ad3-7bee36ad11e4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/st/add/id/1/group/2992",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"st",
+						"add",
+						"id",
+						"1",
+						"group",
+						"2992"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "save",
+			"id": "38355964-c8852bba-5f91-4878-81c2-8e834ae6e413",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_teacher\": 2,\r\n    \"id_subject\": 2,\r\n    \"groups\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/st/save",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"st",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteGroup",
+			"id": "38355964-6f5413c2-3cbf-46a3-83c6-cedcaa89b5d1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_teacher\": 2,\r\n    \"id_subject\": 1,\r\n    \"groups\": [2991, 2992]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/st/delete/id/1/group/2991",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"st",
+						"delete",
+						"id",
+						"1",
+						"group",
+						"2991"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteST",
+			"id": "38355964-137859c4-e2e4-44b0-93a9-3a46234c6085",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_teacher\": 2,\r\n    \"id_subject\": 1,\r\n    \"groups\": [2991, 2992]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/st/delete/id/4",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"st",
+						"delete",
+						"id",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
