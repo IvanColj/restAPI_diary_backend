@@ -1,0 +1,262 @@
+{
+	"info": {
+		"_postman_id": "38355964-a0fadc2a-e35b-45c2-89f5-4ccfca79f7c3",
+		"name": "Group Copy",
+		"description": "Схема таблицы в БД\n\nCREATE TABLE IF NOT EXISTS public.groups  \n(  \nid_curator bigint,  \nnumber_group bigint NOT NULL,  \nCONSTRAINT groups_pkey PRIMARY KEY (number_group)  \n)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "limit&offset",
+			"id": "38355964-f071ac8d-ee36-4957-a751-2affd187a32b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/groups?limit=2&offset=2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"groups"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "2"
+						},
+						{
+							"key": "offset",
+							"value": "2"
+						}
+					]
+				},
+				"description": "Конечная точка \"localhost:8080/api/v1/groups\" - это запрос GET, который извлекает список групп. Он включает в себя параметры запроса \"limit\", чтобы указать количество возвращаемых групп, и \"offset\", чтобы указать начальную позицию для выборки групп.\n\nНапример: limit=5&offset=1 - это значит, что запрос пропустит первую запись и выведет 5 записей."
+			},
+			"response": []
+		},
+		{
+			"name": "all",
+			"id": "38355964-5badc4bc-c20b-49d4-9048-89629d7b8db8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/groups/all",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"groups",
+						"all"
+					]
+				},
+				"description": "Этот запрос выведет все группы"
+			},
+			"response": []
+		},
+		{
+			"name": "subjects",
+			"id": "38355964-366d6c3a-0411-48da-bd2f-e321a404d587",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    1,\r\n    2,\r\n    3,\r\n    4,\r\n    5\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/groups/subjects/group/2992",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"groups",
+						"subjects",
+						"group",
+						"2992"
+					]
+				},
+				"description": "Этот запрос выведет все группы"
+			},
+			"response": []
+		},
+		{
+			"name": "marks",
+			"id": "38355964-1dbaec93-6c07-40e7-85cb-70feb3a71608",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/groups/marks/group/2991/subject/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"groups",
+						"marks",
+						"group",
+						"2991",
+						"subject",
+						"1"
+					]
+				},
+				"description": "Этот запрос выведет все группы"
+			},
+			"response": []
+		},
+		{
+			"name": "number",
+			"id": "38355964-85bc668d-0ebe-45e2-98cf-18bc08f3a47a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/groups/number/2991",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"groups",
+						"number",
+						"2991"
+					]
+				},
+				"description": "Этот запрос выведет определённую группу. Надо указать её номер"
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"id": "38355964-eadb6514-52b4-4d6d-8ae5-4a166330b0ad",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/groups/delete_group/2993",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"groups",
+						"delete_group",
+						"2993"
+					]
+				},
+				"description": "Удаляет группу по её номеру"
+			},
+			"response": []
+		},
+		{
+			"name": "save",
+			"id": "38355964-5180c5d5-19d9-409e-96eb-45e5de4ffd13",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"numberGroup\": 1991,\r\n        \"id_curator\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/groups/save_group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"groups",
+						"save_group"
+					]
+				},
+				"description": "Добавление группы. Что и как указывать приведено ниже"
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"id": "38355964-487adb4f-e462-4fc8-b78f-9ff5cfa49159",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"numberGroup\": 2993,\r\n        \"id_curator\": 4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/groups/update_group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"groups",
+						"update_group"
+					]
+				},
+				"description": "Обнавление группы по её номеру. Надо прописывать все поля, и те которые измениешь, и те которые остаються прежними."
+			},
+			"response": []
+		}
+	]
+}
