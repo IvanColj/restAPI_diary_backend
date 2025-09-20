@@ -161,7 +161,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Галина\",\r\n    \"surname\": \"Анатольевна\",\r\n    \"lastName\": \"Голубева\",\r\n    \"login\": \"gol\",\r\n    \"password\": \"09.02.07\"\r\n}",
+					"raw": "{\r\n    \"email\": \"test1@ptk.com\",\r\n    \"name\": \"Игорь\",\r\n    \"surname\": \"Алексеевич\",\r\n    \"lastName\": \"Андреев\",\r\n    \"login\": \"igor\",\r\n    \"password\": \"12\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
