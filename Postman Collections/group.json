@@ -131,14 +131,14 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"numberGroup\": 1991,\r\n        \"id_curator\": 2\r\n}",
+					"raw": "{\r\n        \"numberGroup\": 2992\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "localhost:8080/api/v1/groups/save_group",
+				"url": "localhost:8080/api/v1/groups/save",
 				"description": "Добавление группы. Что и как указывать приведено ниже"
 			},
 			"response": []
