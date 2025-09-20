@@ -244,7 +244,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"name\": \"2992_2\",\r\n        \"surname\": \"2992_2\",\r\n        \"lastName\": \"2992_2\",\r\n        \"numberGroup\": 2992,\r\n        \"login\": \"2992_2\",\r\n        \"password\": \"2992_2\"\r\n}",
+					"raw": "{\r\n        \"name\": \"Валерия\",\r\n        \"surname\": \"Анатольевна\",\r\n        \"lastName\": \"Шкиперова\",\r\n        \"numberGroup\": 2992,\r\n        \"login\": \"shk\",\r\n        \"password\": \"12\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
