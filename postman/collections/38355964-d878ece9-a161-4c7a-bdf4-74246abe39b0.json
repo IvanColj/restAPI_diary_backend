@@ -253,7 +253,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"numberGroup\": 2992\r\n}",
+					"raw": "{\r\n    \"numberGroup\": 2993,\r\n    \"idCurator\": null,\r\n    \"course\": 4,\r\n    \"specialty\": \"09.02.07 Информационные системы и программирование\",\r\n    \"profile\": \"Разработчик веб и мультимедийных приложений\",\r\n    \"formEducation\": \"очная\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
