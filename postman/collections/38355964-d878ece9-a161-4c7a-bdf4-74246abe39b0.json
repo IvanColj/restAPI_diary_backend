@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "38355964-d878ece9-a161-4c7a-bdf4-74246abe39b0",
 		"name": "Group",
-		"description": "Схема таблицы в БД\n\nCREATE TABLE IF NOT EXISTS public.groups  \n(  \nid_curator bigint,  \nnumber_group bigint NOT NULL,  \nCONSTRAINT groups_pkey PRIMARY KEY (number_group)  \n)",
+		"description": "Схема таблицы в БД\n\n``` sql\nCREATE TABLE groups(\ncourse bigint,\nid_curator bigint,\nnumber_group bigint NOT NULL PRIMARY KEY,\nform_education varchar(255),\nprofile varchar(255), \nspecialty varchar(255));\n\n ```\n\ncourse - int, хранит номер курса группы\n\nid_curator - int, отображает id куратора группы, ссылается на таблицу преподавателей\n\nnumber_group - int, номер группы\n\nform_education - string, форма обучения группы(очная, заочная)\n\nprofile - string, профиль обучения\n\nspecialty - string, специальность группы",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -50,6 +50,15 @@
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"numberGroup\": 2993,\r\n        \"idCurator\": null,\r\n        \"course\": 4,\r\n        \"specialty\": \"09.02.07 Информационные системы и программирование\",\r\n        \"profile\": \"Разработчик веб и мультимедийных приложений\",\r\n        \"formEducation\": \"очная\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
 					"raw": "localhost:8080/api/v1/groups/all",
 					"host": [
@@ -63,7 +72,7 @@
 						"all"
 					]
 				},
-				"description": "Этот запрос выведет все группы"
+				"description": "# Названичение\n\nЭтот запрос выведет все группы. Можно использовать для тестирования\n\n# **Структура**\n\nОбязательных параметров нету"
 			},
 			"response": []
 		},
@@ -78,7 +87,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "[\r\n    1,\r\n    2,\r\n    3,\r\n    4,\r\n    5\r\n]",
+					"raw": "[\r\n    1,\r\n    3\r\n]",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -100,7 +109,7 @@
 						"2992"
 					]
 				},
-				"description": "Этот запрос выведет все группы"
+				"description": "# Названичение\n\nЭтот запрос выведет все id_st группы\n\n# **Структура**\n\nЗначение после group указывает данные о какой группе будут выведены"
 			},
 			"response": []
 		},
@@ -113,8 +122,17 @@
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"idStudent\": 1,\r\n        \"lastName\": \"Робсков\",\r\n        \"name\": \"Иван\",\r\n        \"surname\": \"Андреевич\",\r\n        \"marks\": [\r\n            {\r\n                \"date\": null,\r\n                \"value\": 4.5,\r\n                \"number\": 1,\r\n                \"homework\": null,\r\n                \"typeMark\": {\r\n                    \"id\": 1,\r\n                    \"name\": \"Практическая работа\",\r\n                    \"weight\": 1,\r\n                    \"idSt\": 1\r\n                }\r\n            }\r\n        ]\r\n    },\r\n    {\r\n        \"idStudent\": 3,\r\n        \"lastName\": \"Шкиперова\",\r\n        \"name\": \"Валерия\",\r\n        \"surname\": \"Анатольевна\",\r\n        \"marks\": [\r\n            {\r\n                \"date\": null,\r\n                \"value\": 5.0,\r\n                \"number\": 1,\r\n                \"homework\": null,\r\n                \"typeMark\": {\r\n                    \"id\": 1,\r\n                    \"name\": \"Практическая работа\",\r\n                    \"weight\": 1,\r\n                    \"idSt\": 1\r\n                }\r\n            }\r\n        ]\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
-					"raw": "localhost:8080/api/v1/groups/marks/group/2991/subject/1",
+					"raw": "localhost:8080/api/v1/groups/marks/group/2992/subject/1",
 					"host": [
 						"localhost"
 					],
@@ -125,12 +143,12 @@
 						"groups",
 						"marks",
 						"group",
-						"2991",
+						"2992",
 						"subject",
 						"1"
 					]
 				},
-				"description": "Этот запрос выведет все группы"
+				"description": "# Названичение\n\nЭтот запрос выведет все оценки по определенной группе и по определенному предмету\n\n# **Структура**\n\nЗначение после _group_ указывает данные о какой группе будут выведены\n\nЗначение после subject указывает данные о каком id_st будут выведены"
 			},
 			"response": []
 		},
@@ -143,8 +161,17 @@
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numberGroup\": 2993,\r\n    \"idCurator\": null,\r\n    \"course\": 4,\r\n    \"specialty\": \"09.02.07 Информационные системы и программирование\",\r\n    \"profile\": \"Разработчик веб и мультимедийных приложений\",\r\n    \"formEducation\": \"очная\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
-					"raw": "localhost:8080/api/v1/groups/number/2991",
+					"raw": "localhost:8080/api/v1/groups/number/2993",
 					"host": [
 						"localhost"
 					],
@@ -154,10 +181,37 @@
 						"v1",
 						"groups",
 						"number",
-						"2991"
+						"2993"
 					]
 				},
-				"description": "Этот запрос выведет определённую группу. Надо указать её номер"
+				"description": "# Названичение\n\nЭтот запрос выведет данные о определённой группе. Надо указать её номер\n\n# **Структура**\n\nЗначение после number указывает данные о какой группе будут выведены"
+			},
+			"response": []
+		},
+		{
+			"name": "fetchToGroup",
+			"id": "38355964-85976efe-67d4-4fb0-9bd6-3b6cc8a1117f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/groups/fetchToGroup/2993",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"groups",
+						"fetchToGroup",
+						"2993"
+					]
+				},
+				"description": "## **!! НЕ ИСПОЛЬЗОВАТЬ ЭТОТ ЗАПРОС НА ГРУППУ, КОТОРАЯ УЖЕ ЕСТЬ В БД.**\n\n# Названичение\n\nИспольовать этот запрос нужно, когда добавляется новая группа, происходит \"запрос\" на сайт НовГу и создаются записи студентов и запись о группе.\n\nЭтот запрос выведет список студентов в этой группе.\n\n# **Структура**\n\nЗначение после fetchToGroup указывает данные о какой группе будут выведены и добвленны"
 			},
 			"response": []
 		},
@@ -184,7 +238,7 @@
 						"2993"
 					]
 				},
-				"description": "Удаляет группу по её номеру"
+				"description": "# Названичение\n\nЭтот запрос удаляет ВСЕ данные о группе, включая студентов, которые находяться в этой группе и оценки студентов этой группы.\n\n# **Структура**\n\nЗначение после delete_ _group_ указывает данные о какой группе будут удалены"
 			},
 			"response": []
 		},
@@ -219,7 +273,7 @@
 						"save"
 					]
 				},
-				"description": "Добавление группы. Что и как указывать приведено ниже"
+				"description": "# Названичение\n\nДобавление группы. Если честно из-за появления метода fetchToGroup данный метод стал не нужным\n\n# **Структура**\n\nЗапрос на добавление\n\nВ поле numberGroup указывается номер группы"
 			},
 			"response": []
 		},
