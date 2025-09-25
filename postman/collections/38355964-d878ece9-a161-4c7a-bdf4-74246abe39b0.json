@@ -189,7 +189,7 @@
 			"response": []
 		},
 		{
-			"name": "fetchToGroup",
+			"name": "add",
 			"id": "38355964-85976efe-67d4-4fb0-9bd6-3b6cc8a1117f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
