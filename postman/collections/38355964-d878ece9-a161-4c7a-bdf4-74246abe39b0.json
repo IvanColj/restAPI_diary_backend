@@ -288,7 +288,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"numberGroup\": 2993,\r\n    \"course\": 4\r\n}",
+					"raw": "{\r\n    \"numberGroup\": 2993,\r\n    \"course\": 2\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
