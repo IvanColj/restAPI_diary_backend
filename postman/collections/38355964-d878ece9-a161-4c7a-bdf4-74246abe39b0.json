@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "38355964-d878ece9-a161-4c7a-bdf4-74246abe39b0",
 		"name": "Group",
-		"description": "Схема таблицы в БД\n\n``` sql\nCREATE TABLE groups(\ncourse bigint,\nid_curator bigint,\nnumber_group bigint NOT NULL PRIMARY KEY,\nform_education varchar(255),\nprofile varchar(255), \nspecialty varchar(255)\n);\n\n ```\n\ncourse - int, хранит номер курса группы\n\nid_curator - int, отображает id куратора группы, ссылается на таблицу преподавателей\n\nnumber_group - int, номер группы\n\nform_education - string, форма обучения группы(очная, заочная)\n\nprofile - string, профиль обучения\n\nspecialty - string, специальность группы",
+		"description": "# Схема таблицы в БД\n\n``` sql\nCREATE TABLE groups(\ncourse bigint,\nid_curator bigint,\nnumber_group bigint NOT NULL PRIMARY KEY,\nform_education varchar(255),\nprofile varchar(255), \nspecialty varchar(255)\n);\n\n ```\n\ncourse - int, хранит номер курса группы\n\nid_curator - int, отображает id куратора группы, ссылается на таблицу преподавателей\n\nnumber_group - int, номер группы\n\nform_education - string, форма обучения группы(очная, заочная)\n\nprofile - string, профиль обучения\n\nspecialty - string, специальность группы",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
