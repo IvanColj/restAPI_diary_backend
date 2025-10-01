@@ -7,41 +7,6 @@
 	},
 	"item": [
 		{
-			"name": "limit&offset",
-			"id": "38355964-66b26702-23c7-4f10-ad8f-c14e7d23c688",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "localhost:8080/api/v1/groups?limit=2&offset=1",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"v1",
-						"groups"
-					],
-					"query": [
-						{
-							"key": "limit",
-							"value": "2"
-						},
-						{
-							"key": "offset",
-							"value": "1"
-						}
-					]
-				},
-				"description": "Конечная точка \"localhost:8080/api/v1/groups\" - это запрос GET, который извлекает список групп. Он включает в себя параметры запроса \"limit\", чтобы указать количество возвращаемых групп, и \"offset\", чтобы указать начальную позицию для выборки групп.\n\nНапример: limit=5&offset=1 - это значит, что запрос пропустит первую запись и выведет 5 записей."
-			},
-			"response": []
-		},
-		{
 			"name": "all",
 			"id": "38355964-42277588-6036-41fb-aa9c-e809137c6a2c",
 			"protocolProfileBehavior": {
