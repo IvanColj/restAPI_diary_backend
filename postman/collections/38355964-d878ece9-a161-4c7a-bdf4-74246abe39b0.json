@@ -158,6 +158,15 @@
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"id\": 40,\r\n        \"name\": \"Даниил\",\r\n        \"surname\": \"Будкин\",\r\n        \"lastName\": \"Александрович\",\r\n        \"numberGroup\": 2993,\r\n        \"login\": null,\r\n        \"password\": null\r\n    },\r\n    {\r\n        \"id\": 41,\r\n        \"name\": \"Фёдор\",\r\n        \"surname\": \"Бурлаков\",\r\n        \"lastName\": \"Павлович\",\r\n        \"numberGroup\": 2993,\r\n        \"login\": null,\r\n        \"password\": null\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
 					"raw": "{{baseURL}}/api/v1/groups/add/2993",
 					"host": [
