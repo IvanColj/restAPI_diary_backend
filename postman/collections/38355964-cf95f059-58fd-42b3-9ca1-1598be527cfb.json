@@ -127,7 +127,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"subject_name\": \"Математика\"\r\n}",
+					"raw": "{\r\n    \"subjectName\": \"Отладка и тестирование программного обеспечения\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
