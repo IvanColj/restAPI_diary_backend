@@ -349,7 +349,7 @@
 				"method": "PATCH",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/marks/update/student/4/subject/4/marks/5/number/1",
+					"raw": "localhost:8080/api/v1/marks/update/student/3/st/1/marks/2/number/1",
 					"host": [
 						"localhost"
 					],
@@ -360,11 +360,11 @@
 						"marks",
 						"update",
 						"student",
-						"4",
-						"subject",
-						"4",
+						"3",
+						"st",
+						"1",
 						"marks",
-						"5",
+						"2",
 						"number",
 						"1"
 					]
