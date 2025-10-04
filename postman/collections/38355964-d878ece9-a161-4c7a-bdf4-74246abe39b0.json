@@ -59,12 +59,11 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/groups/subjects/group/2992",
+					"raw": "{{baseURL}}api/v1/groups/subjects/group/2992",
 					"host": [
-						"{{baseURL}}"
+						"{{baseURL}}api"
 					],
 					"path": [
-						"api",
 						"v1",
 						"groups",
 						"subjects",
