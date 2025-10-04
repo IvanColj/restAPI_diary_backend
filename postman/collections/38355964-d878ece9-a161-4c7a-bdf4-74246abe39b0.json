@@ -51,7 +51,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "[\r\n    {\r\n        \"idSt\": 1,\r\n        \"nameSubject\": \"РПМ\"\r\n    },\r\n    {\r\n        \"idSt\": 3,\r\n        \"nameSubject\": \"Отладка и тестирование программного обеспечения\"\r\n    }\r\n]",
+					"raw": "[\r\n    {\r\n        \"idSt\": 1,\r\n        \"nameSubject\": \"РПМ\",\r\n        \"nameTeacher\": \"Лариса\",\r\n        \"lastnameTeacher\": \"Николаевна\",\r\n        \"surnameTeacher\": \"Цымбалюк\"\r\n    },\r\n    {\r\n        \"idSt\": 3,\r\n        \"nameSubject\": \"Отладка и тестирование программного обеспечения\",\r\n        \"nameTeacher\": \"Игорь\",\r\n        \"lastnameTeacher\": \"Алексеевич\",\r\n        \"surnameTeacher\": \"Андреев\"\r\n    }\r\n]",
 					"options": {
 						"raw": {
 							"language": "json"
