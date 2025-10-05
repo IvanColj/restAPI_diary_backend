@@ -95,7 +95,7 @@
 			"response": []
 		},
 		{
-			"name": "id Copy",
+			"name": "subjects",
 			"id": "38355964-ee3ee540-8ae0-4268-94fa-188677b62257",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
