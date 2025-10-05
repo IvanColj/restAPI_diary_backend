@@ -348,8 +348,17 @@
 			"request": {
 				"method": "PATCH",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"student\": 3,\r\n        \"stId\": 1,\r\n        \"mark\": null,\r\n        \"number\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
-					"raw": "localhost:8080/api/v1/marks/update/student/3/st/1/marks/2/number/1",
+					"raw": "localhost:8080/api/v1/marks/update",
 					"host": [
 						"localhost"
 					],
@@ -358,15 +367,7 @@
 						"api",
 						"v1",
 						"marks",
-						"update",
-						"student",
-						"3",
-						"st",
-						"1",
-						"marks",
-						"2",
-						"number",
-						"1"
+						"update"
 					]
 				}
 			},
