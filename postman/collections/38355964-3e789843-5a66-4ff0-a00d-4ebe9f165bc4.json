@@ -340,7 +340,7 @@
 			"response": []
 		},
 		{
-			"name": "updateNumber",
+			"name": "updateOneMark",
 			"id": "38355964-78c85f8c-4a36-4385-948a-461702a53981",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
