@@ -149,7 +149,7 @@
 			"response": []
 		},
 		{
-			"name": "subjectsTeacher",
+			"name": "subjectTeacher",
 			"id": "38355964-37fa4e8d-b61b-40ee-b6a5-0cc6ea87bd49",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
