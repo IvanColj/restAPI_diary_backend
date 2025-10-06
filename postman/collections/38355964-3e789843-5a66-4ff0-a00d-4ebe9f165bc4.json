@@ -32,7 +32,7 @@
 			"response": []
 		},
 		{
-			"name": "studentsMarks",
+			"name": "student",
 			"id": "38355964-d8554bcb-f2f4-4558-89cc-384b1106acb1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
