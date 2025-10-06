@@ -244,7 +244,7 @@
 			"response": []
 		},
 		{
-			"name": "update",
+			"name": "Пока не работает update",
 			"id": "38355964-3479dbaa-cc42-47e0-a213-86861a0e27ca",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
