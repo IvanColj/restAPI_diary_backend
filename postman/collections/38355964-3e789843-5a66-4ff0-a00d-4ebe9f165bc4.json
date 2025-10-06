@@ -210,37 +210,6 @@
 			"response": []
 		},
 		{
-			"name": "saveMarks",
-			"id": "38355964-6fdd45a2-d062-4753-8cda-f2ba9eea3deb",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"url": {
-					"raw": "localhost:8080/api/v1/marks/save/student/11/subject/2/marks/4.5",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"v1",
-						"marks",
-						"save",
-						"student",
-						"11",
-						"subject",
-						"2",
-						"marks",
-						"4.5"
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "updateOneMark",
 			"id": "38355964-78c85f8c-4a36-4385-948a-461702a53981",
 			"protocolProfileBehavior": {
