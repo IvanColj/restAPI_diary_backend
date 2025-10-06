@@ -112,7 +112,7 @@
 			"response": []
 		},
 		{
-			"name": "deleteSubject",
+			"name": "Не нужный deleteSubject",
 			"id": "38355964-a5d1eed7-ae07-488f-8e19-ccf2dfc462c3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
