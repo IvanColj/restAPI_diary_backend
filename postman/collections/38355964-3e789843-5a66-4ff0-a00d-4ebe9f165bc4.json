@@ -285,7 +285,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"id\": {\r\n            \"id_student\": 1,\r\n            \"id_st\": 3\r\n        },\r\n        \"marks\": [\r\n            4.29,\r\n            3.75\r\n        ]\r\n}",
+					"raw": "{\r\n    \"id\": {\r\n        \"idStudent\": 3,\r\n        \"idSt\": 1\r\n    },\r\n    \"certification\": null,\r\n    \"regularMarks\": [\r\n        {\r\n            \"date\": null,\r\n            \"value\": 5.0,\r\n            \"number\": 1,\r\n            \"homework\": null,\r\n            \"typeMark\": {\r\n                \"id\": 1,\r\n                \"name\": \"Практическая работа\",\r\n                \"weight\": 1,\r\n                \"idSt\": 1\r\n            }\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
