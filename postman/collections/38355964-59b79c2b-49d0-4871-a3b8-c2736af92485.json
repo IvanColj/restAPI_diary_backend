@@ -7,42 +7,6 @@
 	},
 	"item": [
 		{
-			"name": "limit&offset",
-			"id": "38355964-f70ddd95-6d23-4270-94b5-c91a499d1317",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "localhost:8080/api/v1/students?limit=2&offset=1",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"v1",
-						"students"
-					],
-					"query": [
-						{
-							"key": "limit",
-							"value": "2"
-						},
-						{
-							"key": "offset",
-							"value": "1",
-							"type": "text"
-						}
-					]
-				},
-				"description": "Конечная точка \"localhost:8080/api/v1/groups\" - это запрос GET, который извлекает список студентов. Он включает в себя параметры запроса \"limit\", чтобы указать количество возвращаемых студентов, и \"offset\", чтобы указать начальную позицию для выборки студентов.\n\nНапример: limit=5&offset=1 - это значит, что запрос пропустит первую запись и выведет 5 записей."
-			},
-			"response": []
-		},
-		{
 			"name": "all",
 			"id": "38355964-60384720-4cef-4d63-98ab-2ed9f6bd1b5c",
 			"protocolProfileBehavior": {
