@@ -59,7 +59,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/groups/marks/group/2992/subject/1",
+					"raw": "{{baseURL}}/api/v1/groups/mark/group/2992/subject/1",
 					"host": [
 						"{{baseURL}}"
 					],
@@ -67,7 +67,7 @@
 						"api",
 						"v1",
 						"groups",
-						"marks",
+						"mark",
 						"group",
 						"2992",
 						"subject",
@@ -97,14 +97,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/groups/number/2993",
+					"raw": "{{baseURL}}/api/v1/group/number/2993",
 					"host": [
 						"{{baseURL}}"
 					],
 					"path": [
 						"api",
 						"v1",
-						"groups",
+						"group",
 						"number",
 						"2993"
 					]
