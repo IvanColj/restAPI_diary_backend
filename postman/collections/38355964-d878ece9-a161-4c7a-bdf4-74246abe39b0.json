@@ -25,14 +25,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/groups/all",
+					"raw": "{{baseURL}}/api/v1/group/all",
 					"host": [
 						"{{baseURL}}"
 					],
 					"path": [
 						"api",
 						"v1",
-						"groups",
+						"group",
 						"all"
 					]
 				},
