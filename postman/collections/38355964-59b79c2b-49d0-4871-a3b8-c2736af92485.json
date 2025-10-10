@@ -124,7 +124,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/student/login/kom/password/123",
+					"raw": "localhost:8080/api/v1/student/login/TimerkayevaMV/password/QyHpVB6qPo",
 					"host": [
 						"localhost"
 					],
@@ -134,9 +134,9 @@
 						"v1",
 						"student",
 						"login",
-						"kom",
+						"TimerkayevaMV",
 						"password",
-						"123"
+						"QyHpVB6qPo"
 					]
 				},
 				"description": "Вывод либо данные о пользователе(в поле пароль указана роль данного пользователя), либо выводит пустого пользователя, если его не нашёл"
