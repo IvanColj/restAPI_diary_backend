@@ -177,11 +177,11 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "PUT",
+				"method": "PATCH",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"id\": 3,\r\n        \"name\": \"Иван\",\r\n        \"surname\": \"Андреевич\",\r\n        \"lastName\": \"Робсков\",\r\n        \"numberGroup\": 2991,\r\n        \"login\": \"user\",\r\n        \"password\": \"123\"\r\n    }",
+					"raw": "{\r\n        \"id\": 1,\r\n        \"lastName\": \"Барышев\",\r\n        \"name\": \"Олег\",\r\n        \"patronymic\": \"Эдуардович\",\r\n        \"idGroup\": 1,\r\n        \"login\": \"BaryshevOE\",\r\n        \"password\": \"$argon2id$v=19$m=16384,t=2,p=1$ikq2fX+U5QTDy6OIUkJqxA$+ZlcM+vppqmtcENvMuhyemHCdgUKkSL0A5fgCXbyxgk\",\r\n        \"telephone\": null,\r\n        \"birthDate\": null,\r\n        \"address\": null,\r\n        \"email\": null\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
