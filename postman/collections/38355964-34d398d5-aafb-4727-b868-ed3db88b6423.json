@@ -96,7 +96,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/staff/login/igor/password/12",
+					"raw": "localhost:8080/api/v1/staff/login/ShultsevVA/password/Z13obxOzRV",
 					"host": [
 						"localhost"
 					],
@@ -106,9 +106,9 @@
 						"v1",
 						"staff",
 						"login",
-						"igor",
+						"ShultsevVA",
 						"password",
-						"12"
+						"Z13obxOzRV"
 					]
 				},
 				"description": "Вывод либо данные о пользователе(в поле пароль указана роль данного пользователя), либо выводит пустого пользователя, если его не нашёл"
