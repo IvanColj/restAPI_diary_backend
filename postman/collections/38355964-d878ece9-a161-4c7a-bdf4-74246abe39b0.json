@@ -229,14 +229,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/groups/save",
+					"raw": "{{baseURL}}/api/v1/group/save",
 					"host": [
 						"{{baseURL}}"
 					],
 					"path": [
 						"api",
 						"v1",
-						"groups",
+						"group",
 						"save"
 					]
 				},
@@ -263,14 +263,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/groups/update",
+					"raw": "{{baseURL}}/api/v1/group/update",
 					"host": [
 						"{{baseURL}}"
 					],
 					"path": [
 						"api",
 						"v1",
-						"groups",
+						"group",
 						"update"
 					]
 				},
