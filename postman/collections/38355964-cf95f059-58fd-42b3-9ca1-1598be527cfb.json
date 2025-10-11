@@ -6,40 +6,6 @@
 	},
 	"item": [
 		{
-			"name": "limit&offset",
-			"id": "38355964-db1aa746-9a21-42f5-a102-2ed9618ad178",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "localhost:8080/api/v1/subjects?limit=2&offset=1",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"v1",
-						"subjects"
-					],
-					"query": [
-						{
-							"key": "limit",
-							"value": "2"
-						},
-						{
-							"key": "offset",
-							"value": "1"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "all",
 			"id": "38355964-4cb48609-ee56-4b19-b582-3b07fc52cce0",
 			"protocolProfileBehavior": {
