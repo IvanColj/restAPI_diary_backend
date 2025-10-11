@@ -127,7 +127,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id_subject\": 3,\r\n    \"subject_name\": \"Разработка программных модулей\"\r\n}",
+					"raw": "{\r\n    \"id\": 3,\r\n    \"subjectName\": \"Разработка программных модулей\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
