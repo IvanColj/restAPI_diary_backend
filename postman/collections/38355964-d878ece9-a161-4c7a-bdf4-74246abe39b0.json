@@ -79,6 +79,41 @@
 			"response": []
 		},
 		{
+			"name": "number Copy",
+			"id": "38355964-91f4c009-bfec-4a8b-b3cb-ee2bd2c0bbeb",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numberGroup\": 2993,\r\n    \"idCurator\": null,\r\n    \"course\": 4,\r\n    \"specialty\": \"09.02.07 Информационные системы и программирование\",\r\n    \"profile\": \"Разработчик веб и мультимедийных приложений\",\r\n    \"formEducation\": \"очная\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/v1/group/number/1",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"group",
+						"number",
+						"1"
+					]
+				},
+				"description": "# Названичение\n\nЭтот запрос выведет данные о определённой группе. Надо указать её номер\n\n# **Структура**\n\nЗначение после number указывает данные о какой группе будут выведены"
+			},
+			"response": []
+		},
+		{
 			"name": "number",
 			"id": "38355964-e652b539-fad9-4075-b6c1-bb440eeddd55",
 			"protocolProfileBehavior": {
