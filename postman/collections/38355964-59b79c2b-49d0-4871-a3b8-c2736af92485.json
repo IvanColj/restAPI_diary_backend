@@ -171,41 +171,6 @@
 			"response": []
 		},
 		{
-			"name": "save",
-			"id": "38355964-0a8f79a2-ce4b-47f4-a4ba-9b96046811b0",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n        \"name\": \"Валерия\",\r\n        \"surname\": \"Анатольевна\",\r\n        \"lastName\": \"Шкиперова\",\r\n        \"numberGroup\": 2992,\r\n        \"login\": \"shk\",\r\n        \"password\": \"12\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "localhost:8080/api/v1/students/save_student",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"v1",
-						"students",
-						"save_student"
-					]
-				},
-				"description": "Добавление студента. Пример добавление приведён ниже"
-			},
-			"response": []
-		},
-		{
 			"name": "update",
 			"id": "38355964-1a44b15f-9b01-4545-b7e3-b05100b1548e",
 			"protocolProfileBehavior": {
