@@ -246,40 +246,6 @@
 			"response": []
 		},
 		{
-			"name": "save",
-			"id": "38355964-e750e7f6-4b34-4811-adc9-0016438c1c9b",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"numberGroup\": 2993,\r\n    \"idCurator\": null,\r\n    \"course\": 4,\r\n    \"specialty\": \"09.02.07 Информационные системы и программирование\",\r\n    \"profile\": \"Разработчик веб и мультимедийных приложений\",\r\n    \"formEducation\": \"очная\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "{{baseURL}}/api/v1/group/save",
-					"host": [
-						"{{baseURL}}"
-					],
-					"path": [
-						"api",
-						"v1",
-						"group",
-						"save"
-					]
-				},
-				"description": "# Названичение\n\nДобавление группы. Если честно из-за появления метода add данный метод стал не нужным\n\n# **Структура**\n\nЗапрос на добавление"
-			},
-			"response": []
-		},
-		{
 			"name": "update",
 			"id": "38355964-4bd116cd-e0b6-4f0a-81e5-05c6b9ed950a",
 			"protocolProfileBehavior": {
