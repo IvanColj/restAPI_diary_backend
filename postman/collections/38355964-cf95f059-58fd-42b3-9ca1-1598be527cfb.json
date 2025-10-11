@@ -93,7 +93,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"subjectName\": \"Отладка и тестирование программного обеспечения\"\r\n}",
+					"raw": "{\r\n    \"subjectName\": \"РПМ\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
