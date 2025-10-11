@@ -161,7 +161,7 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8080/api/v1/teachers/save",
+					"raw": "localhost:8080/api/v1/staff/save",
 					"host": [
 						"localhost"
 					],
@@ -169,7 +169,7 @@
 					"path": [
 						"api",
 						"v1",
-						"teachers",
+						"staff",
 						"save"
 					]
 				},
@@ -196,7 +196,7 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8080/api/v1/teachers/update",
+					"raw": "localhost:8080/api/v1/staff/update",
 					"host": [
 						"localhost"
 					],
@@ -204,7 +204,7 @@
 					"path": [
 						"api",
 						"v1",
-						"teachers",
+						"staff",
 						"update"
 					]
 				},
