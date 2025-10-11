@@ -79,7 +79,7 @@
 			"response": []
 		},
 		{
-			"name": "number Copy",
+			"name": "id",
 			"id": "38355964-91f4c009-bfec-4a8b-b3cb-ee2bd2c0bbeb",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -97,7 +97,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/group/number/1",
+					"raw": "{{baseURL}}/api/v1/group/id/1",
 					"host": [
 						"{{baseURL}}"
 					],
@@ -105,7 +105,7 @@
 						"api",
 						"v1",
 						"group",
-						"number",
+						"id",
 						"1"
 					]
 				},
@@ -132,7 +132,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/group/number/1",
+					"raw": "{{baseURL}}/api/v1/group/number/2992",
 					"host": [
 						"{{baseURL}}"
 					],
@@ -141,7 +141,7 @@
 						"v1",
 						"group",
 						"number",
-						"1"
+						"2992"
 					]
 				},
 				"description": "# Названичение\n\nЭтот запрос выведет данные о определённой группе. Надо указать её номер\n\n# **Структура**\n\nЗначение после number указывает данные о какой группе будут выведены"
