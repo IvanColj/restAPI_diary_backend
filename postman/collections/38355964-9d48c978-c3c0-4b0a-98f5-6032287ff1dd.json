@@ -192,7 +192,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/st/add/id/2/group/2991",
+					"raw": "localhost:8080/api/v1/st/add/id/1/group/2991",
 					"host": [
 						"localhost"
 					],
@@ -203,7 +203,7 @@
 						"st",
 						"add",
 						"id",
-						"2",
+						"1",
 						"group",
 						"2991"
 					]
@@ -222,7 +222,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"idTeacher\": 1,\r\n    \"idSubject\": 3,\r\n    \"groups\": [2991, 2992]\r\n}",
+					"raw": "{\r\n    \"idTeacher\": 1,\r\n    \"idSubject\": 3\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
