@@ -222,7 +222,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"idTeacher\": 3,\r\n    \"idSubject\": 2,\r\n    \"groups\": [2991, 2992]\r\n}",
+					"raw": "{\r\n    \"idTeacher\": 1,\r\n    \"idSubject\": 3,\r\n    \"groups\": [2991, 2992]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
