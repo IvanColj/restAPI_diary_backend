@@ -159,7 +159,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"id_st\": 1,\r\n        \"id_teacher\": 1,\r\n        \"id_subject\": 2,\r\n        \"groups\": []\r\n}",
+					"raw": "{\r\n        \"id\": 1,\r\n        \"idTeacher\": 1,\r\n        \"idSubject\": 2,\r\n        \"groups\": []\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
