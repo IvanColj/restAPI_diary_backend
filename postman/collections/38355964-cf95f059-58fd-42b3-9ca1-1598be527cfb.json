@@ -40,7 +40,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/subject/id/2",
+					"raw": "localhost:8080/api/v1/subject/id/3",
 					"host": [
 						"localhost"
 					],
@@ -50,7 +50,7 @@
 						"v1",
 						"subject",
 						"id",
-						"2"
+						"3"
 					]
 				}
 			},
