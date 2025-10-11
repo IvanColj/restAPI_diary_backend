@@ -96,7 +96,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/teachers/login/igor/password/12",
+					"raw": "localhost:8080/api/v1/staff/login/igor/password/12",
 					"host": [
 						"localhost"
 					],
@@ -104,7 +104,7 @@
 					"path": [
 						"api",
 						"v1",
-						"teachers",
+						"staff",
 						"login",
 						"igor",
 						"password",
@@ -125,7 +125,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/teachers/delete/10",
+					"raw": "localhost:8080/api/v1/staff/delete/10",
 					"host": [
 						"localhost"
 					],
@@ -133,7 +133,7 @@
 					"path": [
 						"api",
 						"v1",
-						"teachers",
+						"staff",
 						"delete",
 						"10"
 					]
