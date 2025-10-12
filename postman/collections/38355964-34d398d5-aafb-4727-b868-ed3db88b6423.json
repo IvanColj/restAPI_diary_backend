@@ -186,7 +186,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/st/add/id/1/group/1",
+					"raw": "localhost:8080/api/v1/addJob/id/1/job/1",
 					"host": [
 						"localhost"
 					],
@@ -194,11 +194,10 @@
 					"path": [
 						"api",
 						"v1",
-						"st",
-						"add",
+						"addJob",
 						"id",
 						"1",
-						"group",
+						"job",
 						"1"
 					]
 				}
