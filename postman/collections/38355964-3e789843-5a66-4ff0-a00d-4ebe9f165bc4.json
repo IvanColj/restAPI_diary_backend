@@ -190,7 +190,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"student\": 3,\r\n        \"stId\": 1,\r\n        \"mark\": 4,\r\n        \"number\": 1\r\n}",
+					"raw": "{\r\n        \"student\": 1,\r\n        \"stId\": 1,\r\n        \"mark\": 4,\r\n        \"number\": 1\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
