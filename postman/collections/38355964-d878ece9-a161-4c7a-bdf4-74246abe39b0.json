@@ -263,14 +263,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/group/update",
+					"raw": "{{baseURL}}/api/v1/groups/update",
 					"host": [
 						"{{baseURL}}"
 					],
 					"path": [
 						"api",
 						"v1",
-						"group",
+						"groups",
 						"update"
 					]
 				},
