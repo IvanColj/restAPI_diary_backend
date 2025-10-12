@@ -239,6 +239,18 @@
 				"description": "Обновит преподователя"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "38355964-07e159fd-bec0-42a4-ac9c-f1a2760fc2cb",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
