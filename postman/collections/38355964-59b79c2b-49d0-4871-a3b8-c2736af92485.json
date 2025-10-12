@@ -16,7 +16,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/student/all",
+					"raw": "localhost:8080/api/v1/students/all",
 					"host": [
 						"localhost"
 					],
@@ -24,7 +24,7 @@
 					"path": [
 						"api",
 						"v1",
-						"student",
+						"students",
 						"all"
 					]
 				},
