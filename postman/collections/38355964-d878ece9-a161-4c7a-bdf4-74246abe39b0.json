@@ -131,14 +131,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/group/number/2992",
+					"raw": "{{baseURL}}/api/v1/groups/number/2992",
 					"host": [
 						"{{baseURL}}"
 					],
 					"path": [
 						"api",
 						"v1",
-						"group",
+						"groups",
 						"number",
 						"2992"
 					]
