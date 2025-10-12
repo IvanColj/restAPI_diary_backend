@@ -137,7 +137,7 @@
 			"response": []
 		},
 		{
-			"name": "addGroup Copy",
+			"name": "addJob",
 			"id": "38355964-cb66da41-b9ca-4c35-9309-d78b1090c9cc",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
