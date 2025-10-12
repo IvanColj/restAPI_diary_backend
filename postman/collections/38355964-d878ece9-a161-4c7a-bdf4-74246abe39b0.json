@@ -166,14 +166,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/group/add/2992",
+					"raw": "{{baseURL}}/api/v1/groups/add/2992",
 					"host": [
 						"{{baseURL}}"
 					],
 					"path": [
 						"api",
 						"v1",
-						"group",
+						"groups",
 						"add",
 						"2992"
 					]
