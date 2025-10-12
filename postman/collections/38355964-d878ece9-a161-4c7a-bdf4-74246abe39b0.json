@@ -93,7 +93,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/groups/mark/group/2992/subject/1",
+					"raw": "{{baseURL}}/api/v1/groups/mark/group/1/subject/1",
 					"host": [
 						"{{baseURL}}"
 					],
@@ -103,7 +103,7 @@
 						"groups",
 						"mark",
 						"group",
-						"2992",
+						"1",
 						"subject",
 						"1"
 					]
