@@ -25,7 +25,40 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/group/all",
+					"raw": "{{baseURL}}/api/v1/groups",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"groups"
+					]
+				},
+				"description": "# Названичение\n\nЭтот запрос выведет все группы. Можно использовать для тестирования\n\n# **Структура**\n\nОбязательных параметров нету"
+			},
+			"response": []
+		},
+		{
+			"name": "id",
+			"id": "38355964-91f4c009-bfec-4a8b-b3cb-ee2bd2c0bbeb",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numberGroup\": 2993,\r\n    \"idCurator\": null,\r\n    \"course\": 4,\r\n    \"specialty\": \"09.02.07 Информационные системы и программирование\",\r\n    \"profile\": \"Разработчик веб и мультимедийных приложений\",\r\n    \"formEducation\": \"очная\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/v1/group/id/10",
 					"host": [
 						"{{baseURL}}"
 					],
@@ -33,10 +66,11 @@
 						"api",
 						"v1",
 						"group",
-						"all"
+						"id",
+						"10"
 					]
 				},
-				"description": "# Названичение\n\nЭтот запрос выведет все группы. Можно использовать для тестирования\n\n# **Структура**\n\nОбязательных параметров нету"
+				"description": "# Названичение\n\nЭтот запрос выведет данные о определённой группе. Надо указать её номер\n\n# **Структура**\n\nЗначение после number указывает данные о какой группе будут выведены"
 			},
 			"response": []
 		},
@@ -75,41 +109,6 @@
 					]
 				},
 				"description": "# Названичение\n\nЭтот запрос выведет все оценки по определенной группе и по определенному предмету\n\n# **Структура**\n\nЗначение после _group_ указывает данные о какой группе будут выведены\n\nЗначение после subject указывает данные о каком id_st будут выведены"
-			},
-			"response": []
-		},
-		{
-			"name": "id",
-			"id": "38355964-91f4c009-bfec-4a8b-b3cb-ee2bd2c0bbeb",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"numberGroup\": 2993,\r\n    \"idCurator\": null,\r\n    \"course\": 4,\r\n    \"specialty\": \"09.02.07 Информационные системы и программирование\",\r\n    \"profile\": \"Разработчик веб и мультимедийных приложений\",\r\n    \"formEducation\": \"очная\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "{{baseURL}}/api/v1/group/id/10",
-					"host": [
-						"{{baseURL}}"
-					],
-					"path": [
-						"api",
-						"v1",
-						"group",
-						"id",
-						"10"
-					]
-				},
-				"description": "# Названичение\n\nЭтот запрос выведет данные о определённой группе. Надо указать её номер\n\n# **Структура**\n\nЗначение после number указывает данные о какой группе будут выведены"
 			},
 			"response": []
 		},
