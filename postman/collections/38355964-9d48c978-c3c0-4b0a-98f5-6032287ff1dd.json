@@ -245,46 +245,6 @@
 			"response": []
 		},
 		{
-			"name": "updateGroup",
-			"id": "38355964-7679120b-5e0d-430b-b265-f1cd84dbfeb2",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "PATCH",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "localhost:8080/api/v1/st/update/id/4/group/2994/newGroup/2991",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"v1",
-						"st",
-						"update",
-						"id",
-						"4",
-						"group",
-						"2994",
-						"newGroup",
-						"2991"
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "updateST",
 			"id": "38355964-b6bab1d1-ca0f-4ca7-ba2b-8cb9d4e19872",
 			"protocolProfileBehavior": {
