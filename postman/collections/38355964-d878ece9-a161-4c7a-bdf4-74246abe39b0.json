@@ -201,7 +201,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/groups/subjects/group/2992",
+					"raw": "{{baseURL}}/api/v1/groups/subjects/group/1",
 					"host": [
 						"{{baseURL}}"
 					],
@@ -211,7 +211,7 @@
 						"groups",
 						"subjects",
 						"group",
-						"2992"
+						"1"
 					]
 				},
 				"description": "# Названичение\n\nЭтот запрос выведет все id_st группы, id предмета, id преподавателя, название предмета, ФИО преподавателя\n\n# **Структура**\n\nЗначение после group указывает данные о какой группе будут выведены"
