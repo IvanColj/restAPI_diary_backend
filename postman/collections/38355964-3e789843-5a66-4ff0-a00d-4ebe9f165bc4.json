@@ -111,35 +111,6 @@
 			"response": []
 		},
 		{
-			"name": "Не нужный deleteSubject",
-			"id": "38355964-a5d1eed7-ae07-488f-8e19-ccf2dfc462c3",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "DELETE",
-				"header": [],
-				"url": {
-					"raw": "localhost:8080/api/v1/marks/delete/student/10/subject/1",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"v1",
-						"marks",
-						"delete",
-						"student",
-						"10",
-						"subject",
-						"1"
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "deleteSubjectGroupNumber",
 			"id": "38355964-d1b061db-83a6-4899-bbfa-5ed3be1480f1",
 			"protocolProfileBehavior": {
