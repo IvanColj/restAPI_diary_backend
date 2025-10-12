@@ -58,14 +58,14 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/group/id/10",
+					"raw": "{{baseURL}}/api/v1/groups/id/10",
 					"host": [
 						"{{baseURL}}"
 					],
 					"path": [
 						"api",
 						"v1",
-						"group",
+						"groups",
 						"id",
 						"10"
 					]
