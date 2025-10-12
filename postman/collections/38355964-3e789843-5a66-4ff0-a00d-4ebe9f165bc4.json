@@ -142,7 +142,7 @@
 			"response": []
 		},
 		{
-			"name": "save marksGroup",
+			"name": "newMarksGroupSt",
 			"id": "38355964-8bdba759-1014-4668-bbe9-15b30476ac64",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
