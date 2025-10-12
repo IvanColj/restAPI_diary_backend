@@ -41,7 +41,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/staff/id/2",
+					"raw": "localhost:8080/api/v1/staffs/id/2",
 					"host": [
 						"localhost"
 					],
@@ -49,7 +49,7 @@
 					"path": [
 						"api",
 						"v1",
-						"staff",
+						"staffs",
 						"id",
 						"2"
 					]
@@ -195,7 +195,7 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8080/api/v1/staff/update",
+					"raw": "localhost:8080/api/v1/staffs/update",
 					"host": [
 						"localhost"
 					],
@@ -203,7 +203,7 @@
 					"path": [
 						"api",
 						"v1",
-						"staff",
+						"staffs",
 						"update"
 					]
 				},
