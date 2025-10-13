@@ -216,7 +216,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": 2,\r\n    \"patronymic\": \"Иванова\",\r\n    \"name\": \"Любовь\",\r\n    \"lastName\": \"Николаевна\",\r\n    \"login\": \"IvanovaLN\",\r\n    \"password\": \"$argon2id$v=19$m=16384,t=2,p=1$iTIN9axX+Lvs2yYCXe2yzA$A0g7yjMB8CgKQ83GdHlqyY9UjjtZ+pSXpcggQ+byga4\",\r\n    \"email\": null\r\n}",
+					"raw": "{\r\n        \"id\": 1,\r\n        \"patronymic\": \"Александрович\",\r\n        \"name\": \"Владимир\",\r\n        \"lastName\": \"Шульцев\"\r\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
