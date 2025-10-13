@@ -124,7 +124,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/students/login/ShkiperovaVA1/password/VRcpcbFWvP",
+					"raw": "localhost:8080/api/v1/students/login/ShkiperovaVA2/password/VRcpcbFWvP",
 					"host": [
 						"localhost"
 					],
@@ -134,7 +134,7 @@
 						"v1",
 						"students",
 						"login",
-						"ShkiperovaVA1",
+						"ShkiperovaVA2",
 						"password",
 						"VRcpcbFWvP"
 					]
