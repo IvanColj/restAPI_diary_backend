@@ -137,35 +137,6 @@
 			"response": []
 		},
 		{
-			"name": "addJob",
-			"id": "38355964-cb66da41-b9ca-4c35-9309-d78b1090c9cc",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"url": {
-					"raw": "localhost:8080/api/v1/st/add/id/1/group/1",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"v1",
-						"st",
-						"add",
-						"id",
-						"1",
-						"group",
-						"1"
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "save",
 			"id": "38355964-c8852bba-5f91-4878-81c2-8e834ae6e413",
 			"protocolProfileBehavior": {
@@ -304,6 +275,18 @@
 						"update"
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "38355964-f1dd271f-8bfa-4faf-a0d8-4e4179c5ed30",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
