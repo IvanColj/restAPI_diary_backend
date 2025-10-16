@@ -108,6 +108,18 @@
 			"response": []
 		},
 		{
+			"name": "New Request",
+			"id": "38355964-f1dd271f-8bfa-4faf-a0d8-4e4179c5ed30",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
 			"name": "addGroup",
 			"id": "38355964-eb537465-db7d-401a-9ad3-7bee36ad11e4",
 			"protocolProfileBehavior": {
@@ -275,18 +287,6 @@
 						"update"
 					]
 				}
-			},
-			"response": []
-		},
-		{
-			"name": "New Request",
-			"id": "38355964-f1dd271f-8bfa-4faf-a0d8-4e4179c5ed30",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": []
 			},
 			"response": []
 		}
