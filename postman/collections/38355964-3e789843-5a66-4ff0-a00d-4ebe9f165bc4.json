@@ -59,7 +59,7 @@
 			"response": []
 		},
 		{
-			"name": "deleteSubjectGroupNumber Copy",
+			"name": "columnInfo",
 			"id": "38355964-dedd937b-43b6-4fdd-9531-81a8ef1588cc",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
