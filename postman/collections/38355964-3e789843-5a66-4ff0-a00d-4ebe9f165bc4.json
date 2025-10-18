@@ -59,6 +59,37 @@
 			"response": []
 		},
 		{
+			"name": "deleteSubjectGroupNumber Copy",
+			"id": "38355964-dedd937b-43b6-4fdd-9531-81a8ef1588cc",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/marks/delete/group/1/st/1/number/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"marks",
+						"delete",
+						"group",
+						"1",
+						"st",
+						"1",
+						"number",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "deleteSubjectGroupNumber",
 			"id": "38355964-d1b061db-83a6-4899-bbfa-5ed3be1480f1",
 			"protocolProfileBehavior": {
