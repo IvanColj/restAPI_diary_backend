@@ -41,7 +41,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/staffs/id/1",
+					"raw": "localhost:8080/api/v1/staffs/id/2",
 					"host": [
 						"localhost"
 					],
@@ -51,7 +51,7 @@
 						"v1",
 						"staffs",
 						"id",
-						"1"
+						"2"
 					]
 				},
 				"description": "выведет преподователя по id"
@@ -95,7 +95,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/staffs/login/ShultsevVA/password/Z13obxOzRV",
+					"raw": "localhost:8080/api/v1/staffs/login/IsaevaES/password/m0iJScUkzZ",
 					"host": [
 						"localhost"
 					],
@@ -105,9 +105,9 @@
 						"v1",
 						"staffs",
 						"login",
-						"ShultsevVA",
+						"IsaevaES",
 						"password",
-						"Z13obxOzRV"
+						"m0iJScUkzZ"
 					]
 				},
 				"description": "Вывод либо данные о пользователе(в поле пароль указана роль данного пользователя), либо выводит пустого пользователя, если его не нашёл"
@@ -152,7 +152,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"patronymic\": \"Иванова\",\r\n    \"name\": \"Любовь\",\r\n    \"lastName\": \"Николаевна\",\r\n    \"login\": \"IvanovaLN\",\r\n    \"password\": \"$argon2id$v=19$m=16384,t=2,p=1$iTIN9axX+Lvs2yYCXe2yzA$A0g7yjMB8CgKQ83GdHlqyY9UjjtZ+pSXpcggQ+byga4\",\r\n    \"email\": null\r\n}",
+					"raw": "{\r\n    \"patronymic\": \"Лазич\",\r\n    \"name\": \"Юлия\",\r\n    \"lastName\": \"Вячеславовна\",\r\n    \"login\": \"LazichYV\",\r\n    \"password\": \"HijqoJUon08\",\r\n    \"email\": null\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -186,7 +186,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/staffs/addJob/id/2/job/2",
+					"raw": "localhost:8080/api/v1/staffs/addJob/id/16/job/9",
 					"host": [
 						"localhost"
 					],
@@ -197,9 +197,9 @@
 						"staffs",
 						"addJob",
 						"id",
-						"2",
+						"16",
 						"job",
-						"2"
+						"9"
 					]
 				}
 			},
