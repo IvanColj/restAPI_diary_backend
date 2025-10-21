@@ -206,7 +206,7 @@
 			"response": []
 		},
 		{
-			"name": "addJob",
+			"name": "deleteJob",
 			"id": "38355964-e00b6346-62b8-4513-b39c-97967e31835b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
