@@ -58,16 +58,17 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/groups/id/1",
+					"raw": "localhost:8080/api/v1/groups/id/2",
 					"host": [
-						"{{baseURL}}"
+						"localhost"
 					],
+					"port": "8080",
 					"path": [
 						"api",
 						"v1",
 						"groups",
 						"id",
-						"1"
+						"2"
 					]
 				},
 				"description": "# Названичение\n\nЭтот запрос выведет данные о определённой группе. Надо указать её номер\n\n# **Структура**\n\nЗначение после number указывает данные о какой группе будут выведены"
@@ -131,10 +132,11 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/groups/number/2992",
+					"raw": "localhost:8080/api/v1/groups/number/2992",
 					"host": [
-						"{{baseURL}}"
+						"localhost"
 					],
+					"port": "8080",
 					"path": [
 						"api",
 						"v1",
