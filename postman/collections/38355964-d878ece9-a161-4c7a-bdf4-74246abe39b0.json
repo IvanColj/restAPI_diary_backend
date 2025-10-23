@@ -94,7 +94,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/groups/marks/group/1/subject/1",
+					"raw": "{{baseURL}}/api/v1/groups/marks/group",
 					"host": [
 						"{{baseURL}}"
 					],
@@ -103,10 +103,7 @@
 						"v1",
 						"groups",
 						"marks",
-						"group",
-						"1",
-						"subject",
-						"1"
+						"group"
 					]
 				},
 				"description": "# Названичение\n\nЭтот запрос выведет все оценки по определенной группе и по определенному предмету\n\n# **Структура**\n\nЗначение после _group_ указывает данные о какой группе будут выведены\n\nЗначение после subject указывает данные о каком id_st будут выведены"
