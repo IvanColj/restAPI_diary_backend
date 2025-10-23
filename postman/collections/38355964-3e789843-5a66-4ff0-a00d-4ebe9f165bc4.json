@@ -139,7 +139,7 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8080/api/v1/marks/save/group/1/st/1",
+					"raw": "localhost:8080/api/v1/marks/save/group",
 					"host": [
 						"localhost"
 					],
@@ -149,10 +149,7 @@
 						"v1",
 						"marks",
 						"save",
-						"group",
-						"1",
-						"st",
-						"1"
+						"group"
 					]
 				}
 			},
