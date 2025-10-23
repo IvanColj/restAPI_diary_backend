@@ -86,7 +86,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "[\r\n    {\r\n        \"idStudent\": 1,\r\n        \"lastName\": \"Робсков\",\r\n        \"name\": \"Иван\",\r\n        \"surname\": \"Андреевич\",\r\n        \"marks\": [\r\n            {\r\n                \"date\": null,\r\n                \"value\": 4.5,\r\n                \"number\": 1,\r\n                \"homework\": null,\r\n                \"typeMark\": {\r\n                    \"id\": 1,\r\n                    \"name\": \"Практическая работа\",\r\n                    \"weight\": 1,\r\n                    \"idSt\": 1\r\n                }\r\n            }\r\n        ]\r\n    },\r\n    {\r\n        \"idStudent\": 3,\r\n        \"lastName\": \"Шкиперова\",\r\n        \"name\": \"Валерия\",\r\n        \"surname\": \"Анатольевна\",\r\n        \"marks\": [\r\n            {\r\n                \"date\": null,\r\n                \"value\": 5.0,\r\n                \"number\": 1,\r\n                \"homework\": null,\r\n                \"typeMark\": {\r\n                    \"id\": 1,\r\n                    \"name\": \"Практическая работа\",\r\n                    \"weight\": 1,\r\n                    \"idSt\": 1\r\n                }\r\n            }\r\n        ]\r\n    }\r\n]",
+					"raw": "{\r\n    \"idGroup\": 2,\r\n    \"idSt\": 11,\r\n    \"idTeacher\": 80\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
