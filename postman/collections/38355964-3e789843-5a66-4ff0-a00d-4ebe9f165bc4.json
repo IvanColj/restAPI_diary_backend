@@ -160,6 +160,41 @@
 			"response": []
 		},
 		{
+			"name": "newMarksGroupSt Copy",
+			"id": "38355964-4dc576d3-93bf-48a6-92d4-c19ed9926400",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idGroup\": 2,\r\n    \"idSt\": 11,\r\n    \"idTeacher\": 80\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/marks/save/group",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"marks",
+						"save",
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "updateOneMark",
 			"id": "38355964-78c85f8c-4a36-4385-948a-461702a53981",
 			"protocolProfileBehavior": {
