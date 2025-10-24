@@ -135,7 +135,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"idGroup\": 2,\r\n    \"idSt\": 11,\r\n    \"idTeacher\": 80\r\n}",
+					"raw": "{\r\n        \"id\": {\r\n            \"id_student\": 50,\r\n            \"id_st\": 5\r\n        },\r\n        \"marks\": [\r\n            4.24\r\n        ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -143,7 +143,7 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8080/api/v1/marks/save/group",
+					"raw": "localhost:8080/api/v1/marks/save/group/2/st/3",
 					"host": [
 						"localhost"
 					],
@@ -153,42 +153,10 @@
 						"v1",
 						"marks",
 						"save",
-						"group"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "newMarksGroupSt Copy",
-			"id": "38355964-4dc576d3-93bf-48a6-92d4-c19ed9926400",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"idGroup\": 2,\r\n    \"idSt\": 11,\r\n    \"idTeacher\": 80\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "localhost:8080/api/v1/marks/save/group",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"v1",
-						"marks",
-						"save",
-						"group"
+						"group",
+						"2",
+						"st",
+						"3"
 					]
 				}
 			},
@@ -239,7 +207,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"id\": {\r\n            \"idSt\": 1,\r\n            \"idStudent\": 1\r\n        },\r\n        \"certification\": null,\r\n        \"regularMarks\": [\r\n            {\r\n                \"id\": {\r\n                    \"semesterMarkIdSt\": 1,\r\n                    \"semesterMarkIdStudent\": 1,\r\n                    \"number\": 1\r\n                },\r\n                \"value\": null,\r\n                \"idChange\": 2,\r\n                \"idLesson\": null,\r\n                \"idTypeMark\": 1\r\n            }\r\n        ]\r\n}",
+					"raw": "{\r\n        \"id\": {\r\n            \"idSt\": 1,\r\n            \"idStudent\": 1\r\n        },\r\n        \"certification\": null\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -247,7 +215,7 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8080/api/v1/marks/update",
+					"raw": "localhost:8080/api/v1/marks/update/certification",
 					"host": [
 						"localhost"
 					],
@@ -256,7 +224,8 @@
 						"api",
 						"v1",
 						"marks",
-						"update"
+						"update",
+						"certification"
 					]
 				}
 			},
