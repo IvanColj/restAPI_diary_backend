@@ -83,10 +83,23 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": [],
+				"header": [
+					{
+						"key": "idGroup",
+						"value": "1",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "idSt",
+						"value": "1",
+						"type": "text",
+						"disabled": true
+					}
+				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"idGroup\": 1,\r\n    \"idSt\": 1\r\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -94,7 +107,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/groups/marks/group",
+					"raw": "{{baseURL}}/api/v1/groups/marks/group?idGroup=1&idSt=1",
 					"host": [
 						"{{baseURL}}"
 					],
@@ -104,6 +117,18 @@
 						"groups",
 						"marks",
 						"group"
+					],
+					"query": [
+						{
+							"key": "idGroup",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "idSt",
+							"value": "1",
+							"type": "text"
+						}
 					]
 				},
 				"description": "# Названичение\n\nЭтот запрос выведет все оценки по определенной группе и по определенному предмету\n\n# **Структура**\n\nЗначение после _group_ указывает данные о какой группе будут выведены\n\nЗначение после subject указывает данные о каком id_st будут выведены"
