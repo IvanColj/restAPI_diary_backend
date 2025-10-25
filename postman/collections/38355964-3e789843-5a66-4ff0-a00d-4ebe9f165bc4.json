@@ -135,7 +135,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"idGroup\": 2,\r\n    \"idSt\": 11\r\n}",
+					"raw": "{\r\n    \"idGroup\": 2,\r\n    \"idSt\": 3\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
