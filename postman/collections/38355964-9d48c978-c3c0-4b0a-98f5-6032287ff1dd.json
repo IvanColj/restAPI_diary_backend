@@ -164,6 +164,35 @@
 			"response": []
 		},
 		{
+			"name": "addGroup Copy",
+			"id": "38355964-d0cfb959-d597-4edf-bc95-ce91cc64f9bb",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/st/add/id/50/group/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"st",
+						"add",
+						"id",
+						"50",
+						"group",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "save",
 			"id": "38355964-c8852bba-5f91-4878-81c2-8e834ae6e413",
 			"protocolProfileBehavior": {
