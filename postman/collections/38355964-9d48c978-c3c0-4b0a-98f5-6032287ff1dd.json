@@ -164,7 +164,7 @@
 			"response": []
 		},
 		{
-			"name": "addGroup Copy",
+			"name": "addTeacher",
 			"id": "38355964-d0cfb959-d597-4edf-bc95-ce91cc64f9bb",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
