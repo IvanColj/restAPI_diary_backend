@@ -283,7 +283,7 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8080/api/v1/st/delete/id/1/group/2",
+					"raw": "localhost:8080/api/v1/st/delete/id/1/teacher/2",
 					"host": [
 						"localhost"
 					],
@@ -295,7 +295,7 @@
 						"delete",
 						"id",
 						"1",
-						"group",
+						"teacher",
 						"2"
 					]
 				}
