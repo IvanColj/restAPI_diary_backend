@@ -265,6 +265,44 @@
 			"response": []
 		},
 		{
+			"name": "deleteGroup Copy",
+			"id": "38355964-1cbfd6ec-8d5f-479c-9afd-9ec14502cf75",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_teacher\": 2,\r\n    \"id_subject\": 1,\r\n    \"groups\": [2991, 2992]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/st/delete/id/1/group/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"st",
+						"delete",
+						"id",
+						"1",
+						"group",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "delete",
 			"id": "38355964-137859c4-e2e4-44b0-93a9-3a46234c6085",
 			"protocolProfileBehavior": {
