@@ -56,33 +56,6 @@
 			"response": []
 		},
 		{
-			"name": "teacher Copy",
-			"id": "38355964-d35689fb-69ed-41b9-ac11-5b08d08cf4f1",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "localhost:8080/api/v1/st/teacher/schedule/21",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"v1",
-						"st",
-						"teacher",
-						"schedule",
-						"21"
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "teacherGroups",
 			"id": "38355964-d853788e-d707-4c50-8f94-383006825a30",
 			"protocolProfileBehavior": {
