@@ -178,7 +178,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/st/add/id/31/group/3",
+					"raw": "localhost:8080/api/v1/st/add/id/32/group/3",
 					"host": [
 						"localhost"
 					],
@@ -189,7 +189,7 @@
 						"st",
 						"add",
 						"id",
-						"31",
+						"32",
 						"group",
 						"3"
 					]
