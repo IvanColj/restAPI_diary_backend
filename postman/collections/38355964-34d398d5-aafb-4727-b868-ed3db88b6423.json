@@ -115,8 +115,36 @@
 			"response": []
 		},
 		{
-			"name": "subjects Copy",
+			"name": "subjectsCourse",
 			"id": "38355964-92e73309-2b5d-46fa-be63-7a8532168b58",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/staffs/subjects/course/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"staffs",
+						"subjects",
+						"course",
+						""
+					]
+				},
+				"description": "выведет преподователя по id"
+			},
+			"response": []
+		},
+		{
+			"name": "subjectsGroup",
+			"id": "38355964-a33fe1e4-2617-4a01-8814-c79ee1924e25",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
