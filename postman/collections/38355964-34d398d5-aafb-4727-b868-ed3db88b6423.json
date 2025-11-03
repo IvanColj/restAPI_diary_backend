@@ -208,33 +208,6 @@
 			"response": []
 		},
 		{
-			"name": "delete",
-			"id": "38355964-5c6757d1-f24b-409b-a028-0aa6aa1a1a0c",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "DELETE",
-				"header": [],
-				"url": {
-					"raw": "localhost:8080/api/v1/staffs/delete/108",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"v1",
-						"staffs",
-						"delete",
-						"108"
-					]
-				},
-				"description": "удалит преподователя по id"
-			},
-			"response": []
-		},
-		{
 			"name": "update",
 			"id": "38355964-3a9cc736-e4bd-4651-b2d6-72118b1731b6",
 			"protocolProfileBehavior": {
@@ -266,6 +239,33 @@
 					]
 				},
 				"description": "Обновит преподователя"
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"id": "38355964-5c6757d1-f24b-409b-a028-0aa6aa1a1a0c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/staffs/delete/108",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"staffs",
+						"delete",
+						"108"
+					]
+				},
+				"description": "удалит преподователя по id"
 			},
 			"response": []
 		}
