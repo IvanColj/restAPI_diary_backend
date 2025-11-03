@@ -40,8 +40,17 @@
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 107,\r\n    \"patronymic\": \"Яковлев\",\r\n    \"name\": \"Игорь\",\r\n    \"lastName\": \"Николаевич\",\r\n    \"login\": \"YakovlevIN\",\r\n    \"password\": \"$argon2id$v=19$m=16384,t=2,p=1$9YIvTXPJTHSkrXK9DoTjIA$1ll/FSCuopIxNwK+GhYyXL9uSnzauJpj8Zr6yMgHPfg\",\r\n    \"email\": null,\r\n    \"staffPosition\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
-					"raw": "localhost:8080/api/v1/staffs/id/1",
+					"raw": "localhost:8080/api/v1/staffs/id/107",
 					"host": [
 						"localhost"
 					],
@@ -51,7 +60,7 @@
 						"v1",
 						"staffs",
 						"id",
-						"1"
+						"107"
 					]
 				},
 				"description": "выведет преподователя по id"
