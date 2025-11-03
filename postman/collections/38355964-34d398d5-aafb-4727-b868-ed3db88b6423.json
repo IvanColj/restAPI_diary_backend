@@ -59,33 +59,6 @@
 			"response": []
 		},
 		{
-			"name": "subjects",
-			"id": "38355964-ee3ee540-8ae0-4268-94fa-188677b62257",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "localhost:8080/api/v1/staffs/subjects/1",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"v1",
-						"staffs",
-						"subjects",
-						"1"
-					]
-				},
-				"description": "выведет преподователя по id"
-			},
-			"response": []
-		},
-		{
 			"name": "login&password",
 			"id": "38355964-7092cc73-62c1-45d6-8776-804ea4693d70",
 			"protocolProfileBehavior": {
@@ -111,6 +84,33 @@
 					]
 				},
 				"description": "Вывод либо данные о пользователе(в поле пароль указана роль данного пользователя), либо выводит пустого пользователя, если его не нашёл"
+			},
+			"response": []
+		},
+		{
+			"name": "subjects",
+			"id": "38355964-ee3ee540-8ae0-4268-94fa-188677b62257",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/staffs/subjects/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"staffs",
+						"subjects",
+						"1"
+					]
+				},
+				"description": "выведет преподователя по id"
 			},
 			"response": []
 		},
