@@ -135,6 +135,40 @@
 			"response": []
 		},
 		{
+			"name": "save",
+			"id": "38355964-c8852bba-5f91-4878-81c2-8e834ae6e413",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"teachers\": [\r\n            60,\r\n            79\r\n        ],\r\n        \"idSubject\": 9\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/st/save",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"st",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "addGroup",
 			"id": "38355964-eb537465-db7d-401a-9ad3-7bee36ad11e4",
 			"protocolProfileBehavior": {
@@ -193,17 +227,17 @@
 			"response": []
 		},
 		{
-			"name": "save",
-			"id": "38355964-c8852bba-5f91-4878-81c2-8e834ae6e413",
+			"name": "updateST",
+			"id": "38355964-b6bab1d1-ca0f-4ca7-ba2b-8cb9d4e19872",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "POST",
+				"method": "PATCH",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "    {\r\n        \"teachers\": [\r\n            60,\r\n            79\r\n        ],\r\n        \"idSubject\": 9\r\n    }",
+					"raw": "{\r\n        \"id\": 1,\r\n        \"idTeacher\": 1,\r\n        \"idSubject\": 2,\r\n        \"groups\": []\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -211,7 +245,7 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8080/api/v1/st/save",
+					"raw": "localhost:8080/api/v1/st/update",
 					"host": [
 						"localhost"
 					],
@@ -220,7 +254,7 @@
 						"api",
 						"v1",
 						"st",
-						"save"
+						"update"
 					]
 				}
 			},
@@ -332,40 +366,6 @@
 						"st",
 						"delete",
 						"17"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "updateST",
-			"id": "38355964-b6bab1d1-ca0f-4ca7-ba2b-8cb9d4e19872",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "PATCH",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n        \"id\": 1,\r\n        \"idTeacher\": 1,\r\n        \"idSubject\": 2,\r\n        \"groups\": []\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "localhost:8080/api/v1/st/update",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"v1",
-						"st",
-						"update"
 					]
 				}
 			},
