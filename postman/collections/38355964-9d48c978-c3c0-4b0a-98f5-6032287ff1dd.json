@@ -279,7 +279,7 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8080/api/v1/st/delete/30",
+					"raw": "localhost:8080/api/v1/st/delete/26",
 					"host": [
 						"localhost"
 					],
@@ -289,7 +289,7 @@
 						"v1",
 						"st",
 						"delete",
-						"30"
+						"26"
 					]
 				}
 			},
