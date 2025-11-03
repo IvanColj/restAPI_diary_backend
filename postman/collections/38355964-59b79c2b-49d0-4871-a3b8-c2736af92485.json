@@ -68,7 +68,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/students/login/BaryshevOE/password/pFtVRSdQEy",
+					"raw": "localhost:8080/api/v1/students/login/ShkiperovaVA1/password/qFTprB4Pzm",
 					"host": [
 						"localhost"
 					],
@@ -78,9 +78,9 @@
 						"v1",
 						"students",
 						"login",
-						"BaryshevOE",
+						"ShkiperovaVA1",
 						"password",
-						"pFtVRSdQEy"
+						"qFTprB4Pzm"
 					]
 				},
 				"description": "Вывод либо данные о пользователе(в поле пароль указана роль данного пользователя), либо выводит пустого пользователя, если его не нашёл"
