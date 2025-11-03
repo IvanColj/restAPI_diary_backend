@@ -145,7 +145,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "    {\r\n        \"teachers\": [\r\n            18,\r\n            81\r\n        ],\r\n        \"idSubject\": 6\r\n    }",
+					"raw": "    {\r\n        \"idSubject\": 11\r\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
