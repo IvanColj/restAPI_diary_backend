@@ -76,66 +76,6 @@
 			"response": []
 		},
 		{
-			"name": "marks",
-			"id": "38355964-8b03b897-838d-4b59-9aef-440c0896053f",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [
-					{
-						"key": "idGroup",
-						"value": "1",
-						"type": "text",
-						"disabled": true
-					},
-					{
-						"key": "idSt",
-						"value": "1",
-						"type": "text",
-						"disabled": true
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "{{baseURL}}/api/v1/groups/marks/group?idGroup=1&idSt=1",
-					"host": [
-						"{{baseURL}}"
-					],
-					"path": [
-						"api",
-						"v1",
-						"groups",
-						"marks",
-						"group"
-					],
-					"query": [
-						{
-							"key": "idGroup",
-							"value": "1",
-							"type": "text"
-						},
-						{
-							"key": "idSt",
-							"value": "1",
-							"type": "text"
-						}
-					]
-				},
-				"description": "# Названичение\n\nЭтот запрос выведет все оценки по определенной группе и по определенному предмету\n\n# **Структура**\n\nЗначение после _group_ указывает данные о какой группе будут выведены\n\nЗначение после subject указывает данные о каком id_st будут выведены"
-			},
-			"response": []
-		},
-		{
 			"name": "number",
 			"id": "38355964-e652b539-fad9-4075-b6c1-bb440eeddd55",
 			"protocolProfileBehavior": {
@@ -203,6 +143,66 @@
 					]
 				},
 				"description": "## **!! НЕ ИСПОЛЬЗОВАТЬ ЭТОТ ЗАПРОС НА ГРУППУ, КОТОРАЯ УЖЕ ЕСТЬ В БД.**\n\n# Названичение\n\nИспольовать этот запрос нужно, когда добавляется новая группа, происходит \"запрос\" на сайт НовГу и создаются записи студентов и запись о группе.\n\nЭтот запрос выведет список студентов в этой группе.\n\nПароль будет иметь не зашифорованный вид только в этом запросе. Если потом отобразить запрос, который выведет студентов их этой группы, то пароль будет захеширован.\n\n# **Структура**\n\nЗначение после add указывает данные о какой группе будут выведены и добвленны"
+			},
+			"response": []
+		},
+		{
+			"name": "marks",
+			"id": "38355964-8b03b897-838d-4b59-9aef-440c0896053f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "idGroup",
+						"value": "1",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "idSt",
+						"value": "1",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/v1/groups/marks/group?idGroup=1&idSt=1",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"groups",
+						"marks",
+						"group"
+					],
+					"query": [
+						{
+							"key": "idGroup",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "idSt",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"description": "# Названичение\n\nЭтот запрос выведет все оценки по определенной группе и по определенному предмету\n\n# **Структура**\n\nЗначение после _group_ указывает данные о какой группе будут выведены\n\nЗначение после subject указывает данные о каком id_st будут выведены"
 			},
 			"response": []
 		},
