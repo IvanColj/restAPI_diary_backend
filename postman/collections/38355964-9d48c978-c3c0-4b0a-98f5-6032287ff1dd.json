@@ -83,32 +83,6 @@
 		},
 		{
 			"name": "teacherGroups Copy",
-			"id": "38355964-3e77f4e4-0256-43ef-a973-3c4b72fe727d",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "localhost:8080/api/v1/st/teacherGroups/28",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"v1",
-						"st",
-						"teacherGroups",
-						"28"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "teacherGroups Copy",
 			"id": "38355964-cb34814a-cd5b-4c08-bff7-5c3441f72ff7",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
