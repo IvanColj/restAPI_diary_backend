@@ -245,7 +245,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"id\": 1,\r\n        \"patronymic\": \"Александрович\",\r\n        \"name\": \"Владимир\",\r\n        \"lastName\": \"Шульцев\"\r\n    }",
+					"raw": "{\r\n        \"id\": 107,\r\n        \"login\": \"ShultsevAV\"\r\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
