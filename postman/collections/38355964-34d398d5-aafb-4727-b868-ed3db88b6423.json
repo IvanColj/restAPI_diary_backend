@@ -115,68 +115,6 @@
 			"response": []
 		},
 		{
-			"name": "delete",
-			"id": "38355964-5c6757d1-f24b-409b-a028-0aa6aa1a1a0c",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "DELETE",
-				"header": [],
-				"url": {
-					"raw": "localhost:8080/api/v1/staffs/delete/108",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"v1",
-						"staffs",
-						"delete",
-						"108"
-					]
-				},
-				"description": "удалит преподователя по id"
-			},
-			"response": []
-		},
-		{
-			"name": "save",
-			"id": "38355964-4e6342c1-eb70-4354-97c6-c6836879ab85",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"patronymic\": \"Лазич\",\r\n    \"name\": \"Юлия\",\r\n    \"lastName\": \"Вячеславовна\",\r\n    \"login\": \"LazichYV\",\r\n    \"password\": \"HijqoJUon08\",\r\n    \"email\": null\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "localhost:8080/api/v1/staffs/save",
-					"host": [
-						"localhost"
-					],
-					"port": "8080",
-					"path": [
-						"api",
-						"v1",
-						"staffs",
-						"save"
-					]
-				},
-				"description": "сохранит преподователя"
-			},
-			"response": []
-		},
-		{
 			"name": "addJob",
 			"id": "38355964-cb66da41-b9ca-4c35-9309-d78b1090c9cc",
 			"protocolProfileBehavior": {
@@ -231,6 +169,68 @@
 						"9"
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "save",
+			"id": "38355964-4e6342c1-eb70-4354-97c6-c6836879ab85",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"patronymic\": \"Лазич\",\r\n    \"name\": \"Юлия\",\r\n    \"lastName\": \"Вячеславовна\",\r\n    \"login\": \"LazichYV\",\r\n    \"password\": \"HijqoJUon08\",\r\n    \"email\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/staffs/save",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"staffs",
+						"save"
+					]
+				},
+				"description": "сохранит преподователя"
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"id": "38355964-5c6757d1-f24b-409b-a028-0aa6aa1a1a0c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/staffs/delete/108",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"staffs",
+						"delete",
+						"108"
+					]
+				},
+				"description": "удалит преподователя по id"
 			},
 			"response": []
 		},
