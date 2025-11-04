@@ -124,7 +124,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/staffs/subjects/course/",
+					"raw": "localhost:8080/api/v1/staffs/subjects/course/28",
 					"host": [
 						"localhost"
 					],
@@ -135,7 +135,7 @@
 						"staffs",
 						"subjects",
 						"course",
-						""
+						"28"
 					]
 				},
 				"description": "выведет преподователя по id"
