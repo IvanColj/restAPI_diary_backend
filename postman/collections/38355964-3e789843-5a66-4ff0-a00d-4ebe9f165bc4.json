@@ -90,6 +90,37 @@
 			"response": []
 		},
 		{
+			"name": "columnInfo Copy",
+			"id": "38355964-cd7aba65-61ff-4fb5-8280-7e4f9e330d0a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/marks/info/student/1/st/2/number/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"marks",
+						"info",
+						"student",
+						"1",
+						"st",
+						"2",
+						"number",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "deleteSubjectGroupNumber",
 			"id": "38355964-d1b061db-83a6-4899-bbfa-5ed3be1480f1",
 			"protocolProfileBehavior": {
