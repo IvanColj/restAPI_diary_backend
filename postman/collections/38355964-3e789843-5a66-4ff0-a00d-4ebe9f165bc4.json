@@ -100,7 +100,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"idGroup\": 2,\r\n    \"idSt\": 4,\r\n    \"idTeacher\": 28,\r\n    \"number\": 1\r\n}",
+					"raw": "{\r\n    \"idGroup\": 2,\r\n    \"idSt\": 2,\r\n    \"number\": 1\r\n}\r\n\r\n    // \"idGroup\": 2,\r\n    // \"idSt\": 4,\r\n    // \"idTeacher\": 28,\r\n    // \"number\": 1",
 					"options": {
 						"raw": {
 							"language": "json"
