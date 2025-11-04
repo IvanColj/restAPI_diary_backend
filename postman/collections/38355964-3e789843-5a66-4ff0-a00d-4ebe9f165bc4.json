@@ -90,7 +90,7 @@
 			"response": []
 		},
 		{
-			"name": "columnInfo Copy",
+			"name": "markInfo",
 			"id": "38355964-cd7aba65-61ff-4fb5-8280-7e4f9e330d0a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
