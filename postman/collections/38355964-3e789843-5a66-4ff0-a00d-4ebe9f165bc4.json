@@ -203,7 +203,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"idStudent\": 1,\r\n        \"idSt\": 1,\r\n        \"mark\": null,\r\n        \"number\": 3\r\n}",
+					"raw": "{\r\n        \"idStudent\": 1,\r\n        \"idSt\": 2,\r\n        \"mark\": 5,\r\n        \"number\": 1\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
