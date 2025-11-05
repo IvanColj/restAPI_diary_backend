@@ -75,7 +75,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"subjectName\": \"Обеспечение качества функционирования компьютерных систем\"\r\n}",
+					"raw": "{\r\n    \"subjectName\": \"Проектный практикум\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
