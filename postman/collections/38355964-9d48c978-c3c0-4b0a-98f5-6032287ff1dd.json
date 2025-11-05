@@ -91,7 +91,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/st/id/32",
+					"raw": "localhost:8080/api/v1/st/id/21",
 					"host": [
 						"localhost"
 					],
@@ -101,7 +101,7 @@
 						"v1",
 						"st",
 						"id",
-						"32"
+						"21"
 					]
 				}
 			},
@@ -207,7 +207,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/st/add/id/25/teacher/88",
+					"raw": "localhost:8080/api/v1/st/add/id/29/teacher/80",
 					"host": [
 						"localhost"
 					],
@@ -218,9 +218,9 @@
 						"st",
 						"add",
 						"id",
-						"25",
+						"29",
 						"teacher",
-						"88"
+						"80"
 					]
 				}
 			},
