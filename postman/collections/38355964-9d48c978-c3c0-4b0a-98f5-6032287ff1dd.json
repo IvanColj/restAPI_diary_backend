@@ -314,7 +314,7 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8080/api/v1/st/delete/id/1/group/3",
+					"raw": "localhost:8080/api/v1/st/delete/id/32/group/2",
 					"host": [
 						"localhost"
 					],
@@ -325,9 +325,9 @@
 						"st",
 						"delete",
 						"id",
-						"1",
+						"32",
 						"group",
-						"3"
+						"2"
 					]
 				}
 			},
