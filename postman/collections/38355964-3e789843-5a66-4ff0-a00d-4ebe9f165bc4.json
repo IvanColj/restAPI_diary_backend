@@ -168,7 +168,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"idGroup\": 2,\r\n    \"idSt\": 2,\r\n    \"idLesson\": 539703\r\n}\r\n\r\n    // \"idGroup\": 2,\r\n    // \"idSt\": 2,\r\n    // \"idLesson\": 1\r\n//    \"idTeacher\": 1",
+					"raw": "{\r\n    \"idGroup\": 2,\r\n    \"idSt\": 2,\r\n    \"idLesson\": 539703,\r\n    \"idTeacher\": 1\r\n}\r\n\r\n    // \"idGroup\": 2,\r\n    // \"idSt\": 2,\r\n    // \"idLesson\": 1\r\n//    \"idTeacher\": 1",
 					"options": {
 						"raw": {
 							"language": "json"
