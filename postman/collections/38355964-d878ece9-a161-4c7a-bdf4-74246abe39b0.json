@@ -154,20 +154,7 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": [
-					{
-						"key": "idGroup",
-						"value": "1",
-						"type": "text",
-						"disabled": true
-					},
-					{
-						"key": "idSt",
-						"value": "1",
-						"type": "text",
-						"disabled": true
-					}
-				],
+				"header": [],
 				"body": {
 					"mode": "raw",
 					"raw": "",
@@ -178,7 +165,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/groups/marks/group?idGroup=1&idSt=1",
+					"raw": "{{baseURL}}/api/v1/groups/marks/group?idGroup=2&idSt=25&idTeacher=28",
 					"host": [
 						"{{baseURL}}"
 					],
@@ -192,13 +179,15 @@
 					"query": [
 						{
 							"key": "idGroup",
-							"value": "1",
-							"type": "text"
+							"value": "2"
 						},
 						{
 							"key": "idSt",
-							"value": "1",
-							"type": "text"
+							"value": "25"
+						},
+						{
+							"key": "idTeacher",
+							"value": "28"
 						}
 					]
 				},
