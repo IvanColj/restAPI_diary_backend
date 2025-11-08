@@ -68,7 +68,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/marks/info/column/student/1/st/2/number/3",
+					"raw": "localhost:8080/api/v1/marks/info/column/student/1/st/29/number/1",
 					"host": [
 						"localhost"
 					],
@@ -82,9 +82,9 @@
 						"student",
 						"1",
 						"st",
-						"2",
+						"29",
 						"number",
-						"3"
+						"1"
 					]
 				}
 			},
