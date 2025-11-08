@@ -40,7 +40,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/marks/student/51/subject/3",
+					"raw": "localhost:8080/api/v1/marks/student/1/subject/3",
 					"host": [
 						"localhost"
 					],
@@ -50,7 +50,7 @@
 						"v1",
 						"marks",
 						"student",
-						"51",
+						"1",
 						"subject",
 						"3"
 					]
