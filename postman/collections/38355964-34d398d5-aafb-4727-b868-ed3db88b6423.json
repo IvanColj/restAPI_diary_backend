@@ -41,7 +41,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/staffs/id/33",
+					"raw": "localhost:8080/api/v1/staffs/id/60",
 					"host": [
 						"localhost"
 					],
@@ -51,7 +51,7 @@
 						"v1",
 						"staffs",
 						"id",
-						"33"
+						"60"
 					]
 				},
 				"description": "выведет преподователя по id"
