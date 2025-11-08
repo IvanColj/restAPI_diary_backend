@@ -124,7 +124,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/students/marks/id/1",
+					"raw": "localhost:8080/api/v1/students/marks/id/49",
 					"host": [
 						"localhost"
 					],
@@ -135,7 +135,7 @@
 						"students",
 						"marks",
 						"id",
-						"1"
+						"49"
 					]
 				},
 				"description": "Выведет студента по его номеру"
