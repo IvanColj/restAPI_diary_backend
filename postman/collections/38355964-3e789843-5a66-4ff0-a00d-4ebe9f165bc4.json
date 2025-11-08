@@ -133,7 +133,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"idGroup\": 2,\r\n    \"idSt\": 3,\r\n    \"idTeacher\": 44,\r\n    \"number\": 1\r\n}",
+					"raw": "{\r\n    \"idGroup\": 2,\r\n    \"idSt\": 3,\r\n    \"idTeacher\": 44,\r\n    \"number\": 2\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
