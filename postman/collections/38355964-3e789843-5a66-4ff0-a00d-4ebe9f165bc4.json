@@ -68,7 +68,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/marks/info/column/student/1/st/29/number/1",
+					"raw": "localhost:8080/api/v1/marks/info/column/student/13/st/29/number/1",
 					"host": [
 						"localhost"
 					],
@@ -80,7 +80,7 @@
 						"info",
 						"column",
 						"student",
-						"1",
+						"13",
 						"st",
 						"29",
 						"number",
@@ -100,7 +100,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/marks/info/mark/student/24/st/2/number/1",
+					"raw": "localhost:8080/api/v1/marks/info/mark/student/1/st/2/number/1",
 					"host": [
 						"localhost"
 					],
@@ -112,7 +112,7 @@
 						"info",
 						"mark",
 						"student",
-						"24",
+						"1",
 						"st",
 						"2",
 						"number",
