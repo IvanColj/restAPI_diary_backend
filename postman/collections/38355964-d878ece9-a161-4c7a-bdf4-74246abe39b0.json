@@ -165,7 +165,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseURL}}/api/v1/groups/marks/group?idGroup=2&idSt=2&idTeacher=6",
+					"raw": "{{baseURL}}/api/v1/groups/marks/group?idGroup=2&idSt=25&idTeacher=6",
 					"host": [
 						"{{baseURL}}"
 					],
@@ -183,7 +183,7 @@
 						},
 						{
 							"key": "idSt",
-							"value": "2"
+							"value": "25"
 						},
 						{
 							"key": "idTeacher",
