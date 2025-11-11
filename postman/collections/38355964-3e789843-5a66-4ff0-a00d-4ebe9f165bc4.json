@@ -100,7 +100,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/marks/info/mark/student/1/st/22/number/1",
+					"raw": "localhost:8080/api/v1/marks/info/mark/student/1/st/3/number/1",
 					"host": [
 						"localhost"
 					],
@@ -114,7 +114,7 @@
 						"student",
 						"1",
 						"st",
-						"22",
+						"3",
 						"number",
 						"1"
 					]
@@ -203,7 +203,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"idTeacher\": 60,\r\n        \"idGroup\": 2,\r\n        \"idStudent\": 1,\r\n        \"idSt\": 29,\r\n        \"number\": 1,\r\n        \"idTypeMark\": 131\r\n}\r\n\r\n// {\r\n//         \"idStudent\": 1,\r\n//         \"idSt\": 2,\r\n//         \"mark\": 5,\r\n//         \"number\": 1\r\n// }\r\n\r\n// {\r\n//         \"idTeacher\": 60,\r\n//         \"idGroup\": 2,\r\n//         \"idStudent\": 1,\r\n//         \"idSt\": 29,\r\n//         \"number\": 1,\r\n//         \"idTypeMark\": 132\r\n// }",
+					"raw": "{\r\n        \"idTeacher\": 28,\r\n        \"idGroup\": 2,\r\n        \"idStudent\": 1,\r\n        \"idSt\": 22,\r\n        \"number\": 1,\r\n        \"idTypeMark\": 85\r\n}\r\n\r\n// {\r\n//         \"idStudent\": 1,\r\n//         \"idSt\": 2,\r\n//         \"mark\": 5,\r\n//         \"number\": 1\r\n// }\r\n\r\n// {\r\n//         \"idTeacher\": 60,\r\n//         \"idGroup\": 2,\r\n//         \"idStudent\": 1,\r\n//         \"idSt\": 29,\r\n//         \"number\": 1,\r\n//         \"idTypeMark\": 132\r\n// }",
 					"options": {
 						"raw": {
 							"language": "json"
