@@ -39,7 +39,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/v1/st/teacher/21",
+					"raw": "localhost:8080/api/v1/st/teacher/65",
 					"host": [
 						"localhost"
 					],
@@ -49,7 +49,7 @@
 						"v1",
 						"st",
 						"teacher",
-						"21"
+						"65"
 					]
 				}
 			},
